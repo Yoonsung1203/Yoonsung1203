@@ -23,7 +23,7 @@
           WS2Var1(["sample_ID"])
           WS2Var2(["Variable1"])
           WS2Var3(["Variable2"])
-          WS2Var1-.-WS2Var2-.-WS2Var3
+          WS2Var1o--oWS2Var2o--oWS2Var3
         end
         WS2Loop-.->WS2LoopVariable
         WS2LoopVariable-.->WS2Loop

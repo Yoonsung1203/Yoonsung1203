@@ -1,5 +1,7 @@
 ## section1
 
+[test](README.md)
+
 ## section2
 
 ```mermaid

@@ -14,6 +14,7 @@
         direction TB
         W1["install_methylseq_required_R_packages"]
         click W1 href "http://www.github.com"
+        B[an important <br><br> <ul> <li>app : <a href='http://google.com'>link</a></li> <li>option1 : hello</li> </ul>]
       end
       subgraph WS2[" "]
         direction LR
@@ -29,13 +30,9 @@
         end
         subgraph WS2LoopVariable["Loop"]
           direction TB
-          WS2Var1(["sample_ID"])
-          WS2Var2(["Variable1"])
-          WS2Var3(["Variable2"])
-          WS2Var1o--oWS2Var2o--oWS2Var3
+          WS2Var1[<ul><li>a</li><li>b</li></ul>]
         end
-        WS2Loop-.->WS2LoopVariable
-        WS2LoopVariable-.->WS2Loop
+        WS2Loop-.-WS2LoopVariable
       end
       subgraph WS3["MetaTable Processing"]
         direction TB

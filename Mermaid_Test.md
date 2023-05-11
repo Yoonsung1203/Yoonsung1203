@@ -5,12 +5,13 @@
       subgraph WS1["Installation"]
         direction TB
         W1["install_methylseq_required_R_packages"]
+        click W1 href "http://www.github.com"
       end
       subgraph WS2[" "]
         direction LR
         subgraph WS2Loop["Extract CpG Table"]
           direction TB
-          W2["makedirs_for_bismark_result"]-->W3["fastpQCPairedEndTrimming"]
+          W2[click <a href=http://google.com>makedirs_for_bismark_result</a>]-->W3["fastpQCPairedEndTrimming"]
           W3-->W4["mapping_sequence_by_bismark"]
           W4-->W5["deduplication_by_bismark"]
           W5-->W6["methylation_extract_by_bismark"]

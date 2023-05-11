@@ -15,7 +15,7 @@
         direction LR
         subgraph WS2Loop["Extract CpG Table"]
           direction TB
-          W2[<a href=#section1>makedirs_for_bismark_result</a>]-->W3["fastpQCPairedEndTrimming"]
+          W2[<a href=./README.md>makedirs_for_bismark_result</a>]-->W3["fastpQCPairedEndTrimming"]
           W3-->W4["mapping_sequence_by_bismark"]
           W4-->W5["deduplication_by_bismark"]
           W5-->W6["methylation_extract_by_bismark"]

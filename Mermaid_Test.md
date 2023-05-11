@@ -2,6 +2,8 @@
 
 [test](README.md)
 
+<a href=README.md>test2</a>
+
 ## section2
 
 ```mermaid
